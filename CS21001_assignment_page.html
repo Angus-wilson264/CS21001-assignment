@@ -11,66 +11,17 @@
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<div class="container-fluid pb-0 mb-0 bg-success"><!--Header-->
+<div class="d-flex pb-0 mb-0 bg-success"><!--Header-->
     <h1>Angus Wilson</h1>
 </div>
 
-<nav class="navbar navbar-expand-lg pt-0 mt-0 bg-success-subtle">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"><h2>About Me</h2></button>
-                </li>
-                <li class="nav-item">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"><h2>Education & Extracurricular</h2></button>
-                </li>
-                <li class="nav-item">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"><h2>Work Experience</h2></button>
-                </li>
-                <li class="nav-item">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"><h2>Skills</h2></button>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
-<div id="ImagesAuto" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#ImagesAuto" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#ImagesAuto" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#ImagesAuto" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://picsum.photos/700/300?random=1" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/700/300?random=2" class="d-block w-100" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/700/300?random=3" class="d-block w-100" alt="">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#ImagesAuto" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#ImagesAuto" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
 <div class="accordion" id="MainTexts">
   <div class="accordion-item">
     <h2 class="accordion-header bg-success bg-gradient">
       <button class="accordion-button collapsed bg-success bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        About Me
+        Intoduction
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse bg-success-subtle" data-bs-parent="#MainTexts">
@@ -82,7 +33,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header bg-success bg-gradient">
       <button class="accordion-button collapsed bg-success bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Education & Extracurricular
+        Work Examples
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse bg-success-subtle" data-bs-parent="#MainTexts">
@@ -94,7 +45,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header bg-success bg-gradient">
       <button class="accordion-button collapsed bg-success bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Work Experience
+        Technical and Transferable Skills
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse bg-success-subtle" data-bs-parent="#MainTexts">
@@ -106,19 +57,18 @@
   <div class="accordion-item">
     <h2 class="accordion-header bg-success bg-gradient">
       <button class="accordion-button collapsed bg-success bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        Skills
+        CV
       </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse bg-success-subtle" data-bs-parent="#MainTexts">
       <div class="accordion-body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <a href="/CV.pdf" download="/CV.pdf"><img src="/CV.pdf" alt="CV"></a>
       </div>
     </div>
   </div>
 </div>
 
 <div class="container-fluid bg-dark-subtle">
-  <h2>Contact Me</h2>
   <p>Phone Number: 07988 625515</p>
   <p>Email: wilsona4000@gmail.com</p>
   <p></p>
